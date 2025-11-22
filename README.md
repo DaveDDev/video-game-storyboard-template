@@ -1,5 +1,4 @@
 # Video Game Storyboard Template
-
 A comprehensive storyboard template for creating videos about video game concepts.
 
 ## Template Structure
@@ -70,9 +69,9 @@ A comprehensive storyboard template for creating videos about video game concept
 
 #### Visuals
 - **On-Screen Elements:**
-  - [Key visuals]
-  - [Game concepts illustrated]
-  - [Examples or case studies]
+  - [List elements]
+  - [Key moments]
+  - [Visual emphasis]
 - **Graphics/Overlays:** [Description]
 - **Color Palette:** [Description]
 
@@ -88,16 +87,11 @@ A comprehensive storyboard template for creating videos about video game concept
 
 ---
 
-## Production Notes
+## Production Details
 
-### Pre-Production Checklist
-- [ ] Script finalized
-- [ ] Game footage captured
-- [ ] Graphics/assets prepared
-- [ ] Music/SFX selected
-- [ ] Voiceover recorded
-
-### Technical Specifications
+### Video Specifications
+- **Total Duration:** [e.g., 5:00]
+- **Target Platform:** [e.g., YouTube, TikTok, Instagram]
 - **Video Resolution:** [e.g., 1920x1080, 3840x2160]
 - **Frame Rate:** [e.g., 30fps, 60fps]
 - **Aspect Ratio:** [e.g., 16:9, 9:16]
@@ -147,6 +141,37 @@ This template works great for videos about:
 - Development process documentation
 - Speedrun strategies
 - Comparison videos
+
+---
+
+## Version Control Best Practices
+
+When working on video game projects and storyboards, following proper version control practices is essential for collaboration and maintaining project history.
+
+### Git Workflows
+
+#### Git Flow
+Git Flow is a branching model that provides a robust framework for managing larger projects:
+- **Main branches:** `main` (production-ready) and `develop` (integration branch)
+- **Supporting branches:** feature branches, release branches, and hotfix branches
+- **Best for:** Projects with scheduled releases and multiple versions in production
+- **Benefits:** Clear separation between development and production code, organized release management
+
+#### Trunk-Based Development
+Trunk-based development emphasizes frequent integration to a single main branch:
+- **Main branch:** All developers commit to `main` (or `trunk`) frequently
+- **Short-lived branches:** Feature branches exist for no more than a day or two
+- **Best for:** Teams practicing continuous integration and deployment
+- **Benefits:** Reduced merge conflicts, faster feedback loops, simplified workflow
+
+### General Best Practices
+- **Commit often** with clear, descriptive messages
+- **Use meaningful branch names** that describe the feature or fix
+- **Review code** before merging to maintain quality
+- **Keep commits atomic** - each commit should represent a single logical change
+- **Write good commit messages** following the conventional format (e.g., "Add", "Fix", "Update")
+- **Use `.gitignore`** to exclude generated files and sensitive data
+- **Tag releases** to mark important milestones in your project
 
 ---
 
